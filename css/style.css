@@ -1,0 +1,48 @@
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd,img,a,span,i,strong,b,em{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#fff;}
+a:hover{ color:#fff;}
+img{ border:0 none; vertical-align:top;}
+input,button{ cursor: pointer; -webkit-appearance: none; }
+html{ font-size: 625%; }
+body{ background:#f6f8f7; font-family:"微软雅黑"; max-width: 750px; min-width: 320px; margin: 0 auto; font-size: 0.24rem; color: #666;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+
+/*头部*/
+#header{ width: 100%;}
+#header img{width: 100%;}
+
+.description{width: 6.3rem; height: 1.16rem; background: url(../images/des-bg.png) no-repeat; background-size: 100% auto; margin: 0.83rem auto 0.51rem; }
+.description .des-text{ font-size:0.28rem; line-height: 0.34rem; width: 5.70rem; height: auto; margin: 0 auto; padding: 0.07rem 0; color: #3d3f4e;}
+
+.yellow{position: relative;}
+.yellow i{position: absolute; background: #fdff04; width: 98%; height: 0.22rem; z-index: -1; border-radius: 0.11rem; top:0.07rem; left: 0;}
+
+.info{ width: 6.92rem; height: auto; border:0.02rem solid #3d3f4e; margin: 0 auto 0.36rem;}
+.info .info-right{ width: auto; height: 1.17rem; border-left:0.02rem solid #3d3f4e; margin-left: 1.45rem;}
+
+.info-text{ padding: 0.06rem 0 0 0.23rem;}
+.info-text dt{ font-size: 0.28rem; line-height: 0.6rem; color:#333333 ;}
+.info-text dd{ line-height: 0.3rem;}
+
+.info01{ border-radius: 0.58rem; background: url(../images/info01.png) no-repeat 0.38rem 0.17rem; background-size: 0.74rem 0.77rem;}
+
+.info02{ border-radius: 0.71rem; background: url(../images/info02.png) no-repeat 0.52rem 0.4rem; background-size: 0.72rem 0.7rem;}
+.info02 .info-right{height: 1.41rem; width: 4.70rem;}
+
+.info03{ border-radius: 0.71rem; background: url(../images/info03.png) no-repeat 0.5rem 0.3rem; background-size: 0.78rem 0.78rem; }
+.info03 .info-right{height: 1.41rem;}
+
+.title{ width:4rem; font-size: 0.28rem; margin: 0.4rem auto 0.24rem;}
+.title i{ width: 93%;}
+
+.howtouse{ width: 7.1rem; height: 6.38rem; background: url(../images/use.jpg) no-repeat; background-size: 100% auto; position: relative; margin: 0 auto;}
+.how-text{ display:block; width:6rem; height:auto; line-height: 0.3rem; position: absolute; color: #333;}
+.how01{ top:0; left: 0.7rem;}
+.how02{ bottom:0.02rem; left: 0.7rem;}
+
+.button{ display: block;  box-sizing:border-box; width: 6.42rem; height: 1.17rem; background: url(../images/button.png) no-repeat;background-size: 100% auto; margin: 0.83rem 0 0.63rem 0.48rem; font-size: 0.32rem; line-height: 1.07rem; padding-left: 0.25rem;}
+
+#bottom{ width: 100%;}
+#bottom img{ width: 100%;}
